@@ -9,7 +9,10 @@ display: flex;
   padding: 20px 0;
   border: 1px solid white;`
 
-export const Buttons = styled.div`
+export const Statistics = styled.h2`
+`
+
+export const Buttons = styled.ul`
 
   display: flex;
   flex-direction: row;
