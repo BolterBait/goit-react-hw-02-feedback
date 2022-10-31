@@ -1,6 +1,6 @@
-import { Result, DataRecord } from './Feedback.styled';
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Result, DataRecord } from './Statistics.styled';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import { StatisticData, Buttons, Button } from './Feedback.styled';
 import PropTypes from 'prop-types';
+import { StatisticData, Buttons, Button } from './Feedback.styled';
 
 export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
   return (
