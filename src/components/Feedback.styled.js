@@ -1,19 +1,20 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const StatisticData = styled.div`
-display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
-  background: teal;
+  align-items: flex-start;
   padding: 20px 0;
+  margin-left: 40px;
   border: 1px solid white;`
 
-export const Statistics = styled.h2`
-`
+export const SectionTitle = styled.h2`
+  font-size: 26px;
+  padding: 10px 20px;`
+
 
 export const Buttons = styled.ul`
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,10 +30,18 @@ border: 1px solid grey;
 border-radius: 4px;
 margin-right: 15px;`
 
-export const Result = styled.div``
+export const Result = styled.div`
+display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px 0;
+  margin-left: 40px;`
 
 export const DataRecord = styled.span`
 display: block;
 padding: 10px;
 font-size: 20px;
 `
+export const NotificationMessage = styled.p`
+padding: 10px 20px;`
