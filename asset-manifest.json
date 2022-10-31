@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BolterBait/goit-react-hw-02-feedback.git/static/css/main.51019851.css",
-    "main.js": "/BolterBait/goit-react-hw-02-feedback.git/static/js/main.1c8b3665.js",
+    "main.js": "/BolterBait/goit-react-hw-02-feedback.git/static/js/main.fb051be8.js",
     "index.html": "/BolterBait/goit-react-hw-02-feedback.git/index.html",
     "main.51019851.css.map": "/BolterBait/goit-react-hw-02-feedback.git/static/css/main.51019851.css.map",
-    "main.1c8b3665.js.map": "/BolterBait/goit-react-hw-02-feedback.git/static/js/main.1c8b3665.js.map"
+    "main.fb051be8.js.map": "/BolterBait/goit-react-hw-02-feedback.git/static/js/main.fb051be8.js.map"
   },
   "entrypoints": [
     "static/css/main.51019851.css",
-    "static/js/main.1c8b3665.js"
+    "static/js/main.fb051be8.js"
   ]
 }
