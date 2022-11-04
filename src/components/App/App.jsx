@@ -1,9 +1,11 @@
 import { Component } from 'react';
-import { FeedbackOptions } from './FeedbackOptions';
-import Section from './Section';
-import Statistics from './Statistics';
-import Notification from './Notification';
 import PropTypes from 'prop-types';
+
+import { FeedbackOptions } from '../Feedback/FeedbackOptions';
+import Section from '../Section/Section';
+import Statistics from '../Statistics/Statistics';
+import Notification from '../Notification/Notification';
+
 export class App extends Component {
   state = {
     good: 0,
@@ -37,7 +39,7 @@ export class App extends Component {
           />
         </Section>
         <Section title="Statistics">
-          {total > 0 ? (
+          {!!total ? (
             <Statistics
               good={this.state.good}
               neutral={this.state.neutral}
