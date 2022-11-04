@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import { FeedbackOptions } from '../Feedback/FeedbackOptions';
 import Section from '../Section/Section';
@@ -55,11 +54,3 @@ export class App extends Component {
     );
   }
 }
-
-Statistics.propTypes = {
-  good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
-  total: PropTypes.number,
-  positivePercentage: PropTypes.number,
-};
